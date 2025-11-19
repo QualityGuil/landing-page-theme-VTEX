@@ -1,0 +1,252 @@
+.flexRowContent--menu-link,
+.flexRowContent--main-header {
+  padding: 0 0.5rem;
+}
+
+@media screen and (min-width: 40em) {
+
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (min-width: 80rem) {
+
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 0.25rem;
+  }
+}
+
+.flexRowContent--menu-link {
+  background-color: #03044e;
+  color: #fff;
+}
+
+.flexRowContent--main-header {
+  background-color: #f0f0f0;
+}
+
+.flexRowContent--main-header-mobile {
+  align-items: center;
+  padding: 0.625rem 0.5rem;
+  background-color: #E7473C;
+}
+
+.flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
+  color: #727273;
+  font-size: 14px;
+}
+
+.flexRow--deals {
+  background-color: #0F3E99;
+  /* padding: 14px 0px; */
+}
+
+.flexRow--deals .stretchChildrenWidth {
+  align-items: center;
+}
+
+.flexRow--deals .flexCol {
+  align-items: center;
+  margin-bottom: 5px;
+  padding-top: 5px;
+}
+
+.flexCol--filterCol {
+  max-width: 500px;
+  min-width: 230px;
+}
+
+.flexCol--productCountCol {
+  align-items: flex-start;
+}
+
+.flexCol--orderByCol {
+  align-items: flex-end;
+}
+
+.flexCol--orderByMobileCol {
+  width: 42%;
+}
+
+.flexCol--filterMobileCol {
+  width: 38%;
+}
+
+.flexRow--quickviewMainRow {
+  display: flex;
+  max-height: 100%;
+}
+
+.flexColChild--quickviewDetails:first-child {
+  overflow-y: auto;
+  height: 66% !important;
+  overflow-x: hidden;
+}
+
+.flexColChild--quickviewDetails:last-child {
+  height: 34% !important;
+}
+
+.flexRow--addToCartRow {
+  padding-bottom: 1rem;
+}
+
+.flexRow--flex-row-SEO {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flexRow--offers-container {
+  width: 72%;
+  margin: 0 auto;
+  /* background-color: black; */
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5px;
+  /* flex-wrap: wrap; */
+}
+
+/* .flexRow--offers-container .container .stretchChildrenWidth {
+  width: 250px;
+} */
+
+/* @media screen and (max-width: 767px) {
+  .flexRow--offers-container :global(.vtex-store-components-3-x-container) {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+  }
+  .flexColChild--offer {
+    width: 50px;
+  }
+} */
+
+.flexColChild--offer {
+  /* background-color: blue; */
+  /* width: 150px; */
+  width: 100px;
+  /* height: 250px; */
+  padding: 0;
+  margin: 5px 0 5px 0;
+}
+
+.flexRow--landing-page-deals {
+  background-color: #E7473C;
+  /* height: 50px; */
+  padding: 1px;
+  /* width: 70%; */
+}
+
+/* .flexCol--landing-page-deal {
+  width: 50px;
+} */
+
+.stretchChildrenWidth {
+  width: auto;
+}
+
+.flexCol--landing-page-deal {
+  /* background-color: gray; */
+  text-align: center;
+}
+
+.flexRow--sticky-header-desktop {
+  /* height: 50px; */
+  /* background-color: #E76F51; */
+  background-color: yellow;
+}
+
+.flexRowContent--header-main-landing-page {
+  /* background-color: #E76F51; */
+  background-color: #E7473C;
+}
+
+.flexRow--row-footer {
+  background-color: #E76F51;
+}
+
+:global(.vtex-store-footer-2-x-footer-container) {
+  background-color: #E76F51;
+}
+
+.flexRow--header-navegation {
+  display: flex;
+  width: auto;
+  align-items: center;
+  /* gap: 250px; */
+}
+
+.flexRow--menu-row-landing-page {
+  width: 72%;
+  margin: 0 auto;
+}
+
+.flexRowContent--menu-row-landing-page {
+  color: white;
+}
+
+.flexRow--payment-methods-landing-page {
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .flexRowContent--menu-row-landing-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .flexRowContent--offers-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+}
+
+.flexRow--header-navegation {
+  width: 250px;
+}
+
+.flexRow--landing-page-deals-container {
+  width: 100%;
+  background-color: #E7473C;
+}
+
+/* .flex-column :global(.vtex-render__container-id-landing-page-deals-container) {
+  background-color: #E7473C;
+  width: 100%;
+} */
+
+.flexRow--landing-page-deals-container {
+  background-color: #E7473C;
+  width: 100%;
+  padding: 1px;
+}
+
+.flexRow--landing-page-deals {
+  /* width: 50%; */
+  background-color: #E7473C;
+}
+/* 
+.flexColChild--landing-page-deal {
+  width: 25px;
+}
+
+.container--landing-page-deal {
+  width: 25px;
+}
+
+.flexCol--landing-page-deal {
+  width: 25px;
+} */

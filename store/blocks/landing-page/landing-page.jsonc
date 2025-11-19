@@ -1,0 +1,16 @@
+{
+  "store.custom#landing-page": {
+    "parent": {
+      "header": "header#landing-page",
+      "footer": "footer#landing-page"
+    },
+    "blocks": [
+      "slider-layout#landing-page",
+      "flex-layout.row#landing-page-deals-container",
+      "flex-layout.row#SEO",
+      "info-card#landing-page",
+      "flex-layout.row#offers-container",
+      "form-container"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+    "slider-layout#landing-page": {
+        "children": [
+            "image#brand1",
+            "image#brand2",
+            "image#brand3"
+        ],
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            }
+        }
+    },
+    "image#brand1": {
+        "props": {
+            "src": "assets/slider-1.png",
+            "blockClass": "home-slider-image"
+        }
+    },
+    "image#brand2": {
+        "props": {
+            "src": "assets/slider-2.png",
+            "blockClass": "home-slider-image"
+        }
+    },
+    "image#brand3": {
+        "props": {
+            "src": "assets/slider-3.png",
+            "blockClass": "home-slider-image"
+        }
+    }
+}

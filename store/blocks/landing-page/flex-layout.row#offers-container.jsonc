@@ -1,0 +1,38 @@
+{
+    "flex-layout.row#offers-container": {
+        "children": [
+            "image#offer1",
+            "image#offer2",
+            "image#offer3",
+            "image#offer4"
+        ],
+        "props": {
+            "blockClass": "offers-container",
+            "colJustify": "between"
+        }
+    },
+    "image#offer1": {
+        "props": {
+            "src": "assets/1.png",
+            "blockClass": "image-offer"
+        }
+    },
+    "image#offer2": {
+        "props": {
+            "src": "assets/2.png",
+            "blockClass": "image-offer"
+        }
+    },
+    "image#offer3": {
+        "props": {
+            "src": "assets/3.png",
+            "blockClass": "image-offer"
+        }
+    },
+    "image#offer4": {
+        "props": {
+            "src": "assets/4.png",
+            "blockClass": "image-offer"
+        }
+    }
+}

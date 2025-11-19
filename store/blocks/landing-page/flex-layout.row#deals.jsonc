@@ -1,0 +1,109 @@
+{
+    "flex-layout.row#landing-page-deals-container": {
+        "children": [
+            "flex-layout.row#landing-page-deals"        
+        ],
+        "props": {
+            "blockClass": "landing-page-deals-container"
+        }
+    },
+    "flex-layout.row#landing-page-deals": {
+        "children": [
+            "flex-layout.col#landing-page-deal1",
+            "flex-layout.col#landing-page-deal2",
+            "flex-layout.col#landing-page-deal3",
+            "flex-layout.col#landing-page-deal4"
+        ],
+        "props": {
+            "blockClass": "landing-page-deals"
+            // ,
+            // "preventHorizontalStretch": false,
+            // "preserveLayoutOnMobile": true,
+            // "fullWidth": false
+        }
+    },
+    "flex-layout.col#landing-page-deal1": {
+        "children": [
+            "image#landing-page-deal1",
+            "rich-text#landing-page-deal1"
+        ],
+        "props": {
+            "blockClass": "landing-page-deal"
+        }
+    },
+    "image#landing-page-deal1": {
+        "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+            "blockClass": "image-landing-page-deal"
+        }
+    },
+    "rich-text#landing-page-deal1": {
+        "props": {
+            "text": "Entrega grátis",
+            "blockClass": "landing-page-deal"
+        }
+    },
+    "flex-layout.col#landing-page-deal2": {
+        "children": [
+            "image#landing-page-deal2",
+            "rich-text#landing-page-deal2"
+        ],
+        "props": {
+            "blockClass": "landing-page-deal"
+        }
+    },
+    "image#landing-page-deal2": {
+        "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/delivery-fast.png",
+            "blockClass": "image-landing-page-deal"
+        }
+    },
+    "rich-text#landing-page-deal2": {
+        "props": {
+            "text": "Entregas em até um dia",
+            "blockClass": "landing-page-deal"
+        }
+    },
+    "flex-layout.col#landing-page-deal3": {
+        "children": [
+            "image#landing-page-deal3",
+            "rich-text#landing-page-deal3"
+        ],
+        "props": {
+            "blockClass": "landing-page-deal"
+        }
+    },
+    "image#landing-page-deal3": {
+        "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/store.png",
+            "blockClass": "image-landing-page-deal"
+        }
+    },
+    "rich-text#landing-page-deal3": {
+        "props": {
+            "text": "Retirada na loja",
+            "blockClass": "landing-page-deal"
+        }
+    },
+    "flex-layout.col#landing-page-deal4": {
+        "children": [
+            "image#landing-page-deal4",
+            "rich-text#landing-page-deal4"
+        ],
+        "props": {
+            "blockClass": "landing-page-deal"
+        }
+    },
+    "image#landing-page-deal4": {
+        "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/coupon.png",
+            "blockClass": "image-landing-page-deal"
+        }
+    },
+    "rich-text#landing-page-deal4": {
+        "props": {
+            "text": "Ofertas exclusivas",
+            "blockClass": "landing-page-deal"
+        }
+    }
+}

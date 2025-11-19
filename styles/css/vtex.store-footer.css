@@ -1,0 +1,66 @@
+.row--menu-row {
+  padding-right: 24px;
+}
+
+.row--menu-row .rowContainer {
+  align-items: flex-start;
+}
+
+.row--payment-methods {
+  padding-top: 16px;
+}
+
+.footerLayout--footer-landing-page {
+  display: flex;
+  flex-direction: column;
+  background-color: #E7473C;
+}
+
+.socialNetworkWrapper--redes-sociais-landing-page {
+  /* align-items: flex-end;
+  align-content: end; */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.socialNetworkImage--redes-sociais-landing-page {
+  color: white;
+  background-color: white;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.socialNetworkWrapper--redes-sociais-landing-page {
+  color: white;
+}
+
+.socialNetworksContainer--redes-sociais-landing-page {
+  color: white;
+}
+
+.vtex-store-footer-2-x-socialNetworkLink--redes-sociais-landing-page :global(.vtex-store-footer-2-x-socialNetworkImage) {
+  color: white;
+}
+
+.paymentMethodIconImage {
+  color: white;
+  background-color: white;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.socialNetworksContainer :global(.vtex-store-footer-2-x-socialNetworksLink) {
+  color: white; /* Cor vermelha para os ícones */
+}
+
+@media screen and (max-width: 767px) {
+  .socialNetworkWrapper--redes-sociais-landing-page{
+    display: flex;
+    justify-content: center;
+    /* margin-right: 5px; */
+  }
+}
+
+.socialNetworksContainer--redes-sociais-landing-page {
+  margin-right: 5px;
+}
